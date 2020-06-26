@@ -1,0 +1,20 @@
+list=['gf\ng','i\ns','b\np']
+print("the original list is:"+str(list))
+res=[]
+for i in list:
+    res.append(i.replace("\n",""))
+print("after removing a newline: "+str(res))
+
+s="hellooo"#deletion of a charcter
+print(s)
+print(s.replace("l"," "))
+
+s=input("enter a string:")#string entered by user using loop
+for i in s:
+	print(i,end='\n')
+	
+s1=input("enter a s1 string: ")#swap of two characters from two strings
+s2=input("enter a s2 string: ")
+news1=s2[:2]+s1[2:]
+news2=s1[:2]+s2[2:]
+print(news1 , news2)
